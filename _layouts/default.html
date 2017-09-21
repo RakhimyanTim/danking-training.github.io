@@ -32,7 +32,7 @@
 					</ul>
 
 					<ul class="user">
-						<li><a target="_blank" href="https://goo.gl/forms/XSokvk5lUzY4Vpbl2">Проверить идею <i class="material-icons">open_in_new</i></a></li>
+						<li><a target="_blank" href="#">Скачать приложение <i class="material-icons">open_in_new</i></a></li>
 					</ul>
 				</div>
 
@@ -68,22 +68,7 @@
 		{{ content }}
 
 		<footer>
-			<div class="container">
-				<div class="footer-columns">
-					{% for column in site.data.footer %}
-					<ul class="footer-links">
-						<li><h2>{{ column.title }}</h2></li>
-						{% for link in column.links %}
-							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{{ link.link }}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
-								{% if link.social_icon %}
-									{% include social-icon.html icon=link.social_icon %}
-								{% endif %}
-								{{ link.name }}</a></li>
-						{% endfor %}
-					</ul>
-					{% endfor %}
-				</div>
-			</div>
+		
 
 			<div class="legal-line">
 				<p class="container" style="text-align: center;">
