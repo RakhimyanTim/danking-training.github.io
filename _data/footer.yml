@@ -1,0 +1,45 @@
+
+- title: Компания
+  links:
+    - name: О нас
+      link: /about/
+    - name: Блог
+      link: /blog/
+    - name: Карьера
+      link: /careers/
+    - name: Контакты
+      link: /contact/
+- title: Прайс
+  links:
+
+- title: Решения
+  links:
+    - name: Проекты
+      link: /projects/
+    - name: Партнеры
+      link: /partners/
+- title: Соцсети
+  links:
+    - name: Твиттер
+      link: https://twitter.com/enblabs
+      social_icon: Twitter
+      new_window: true
+    - name: Фейсбук
+      link: https://www.facebook.com/enblabs
+      social_icon: Facebook
+      new_window: true
+    - name: Гугл+
+      link: https://plus.google.com/+enblabs
+      social_icon: Google Plus
+      new_window: true
+    - name: Ютуб
+      link: https://www.youtube.com/c/enblabs
+      social_icon: YouTube
+      new_window: true
+- title: Помощь
+  links:
+    - name: Пресса
+      link: /press/
+    - name: Контакты
+      link: /contact/
+
