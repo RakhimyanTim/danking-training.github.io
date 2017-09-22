@@ -1,29 +1,23 @@
-title: ЭнБиЛабс
-description: Сервис для проверки идеи стартапа. Трансформируй свою идею. Создай свой стартап без вложений.
-url: https://enblabs.ru
+title: Dunk & Training
+description: Прокачайте свой прыжок и делитесь им ярко.
+url: https://dunk-training.enblabs.ru
 disqus_shortname: enblabs
 
-logo: https://enblabs.ru/img/enblabs-logo.png
+logo: https://dunk-training.enblabs.ru/img/dunk-training-logo.png
 twitter:
-  username: enblabs
+  username: 
 
 facebook:
-  publisher: https://www.facebook.com/enblabs
+  publisher: 
 
 social:
   links:
-    - https://www.facebook.com/enblabs
-    - https://plus.google.com/+enblabs
-    - https://twitter.com/enblabs
-    - https://www.youtube.com/c/enblabs
-    - https://www.linkedin.com/company/enblabs
-    - https://github.com/enblabs
 
 google_site_verification: 
 company:
-  founded: Ноябрь 2017
-  team_size: 3
-  address: 450001, Уфа, ул. Проспект Октября, 2
+  founded: 
+  team_size: 
+  address:
   
 gems:
   - jekyll-sitemap
@@ -34,8 +28,8 @@ gems:
 
 paginate: 10
 paginate_path: "blog/:num/"
-blog_name: Блог ЭнБиЛабс
-blog_description: Оставайтесь в курсе последних новостей.
+blog_name: 
+blog_description: 
 permalink: pretty
 timezone: Yekaterinburg
 
