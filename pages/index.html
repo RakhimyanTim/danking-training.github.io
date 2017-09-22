@@ -44,13 +44,13 @@ sitemap:
 					<a href="#" class="btn btn-block btn-centered btn-large btn-primary sign-up" style="display: inherit;">Скачать приложение</a>
 					<span class="btn-sub-text">Внимание! План тренировок бесплатно - 7 дней. </span>
 				</div>
-					<span class="learn-more">или <a href="#">узнать больше</a></span>
+					<span class="learn-more">или <a href="#share-page-options">Расшарить друзьям</a></span>
 			</div>
 	</div>
 	
 </section>
 
-<div class="share-options well">
+<div class="share-options well" id="share-page-options">
 			{% assign url = page.url | prepend: site.url | cgi_escape %}
 			<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ url }}" target="_blank">{% include social-icon.html icon="Facebook" %} Share</a>
 			<a class="share-btn twitter" href="https://twitter.com/intent/tweet?url={{ url }}&amp;text={{ page.title | markdownify | strip_html | cgi_escape }}%20on%20{{ site.title | cgi_escape }}&amp;via=CloudCannon" target="_blank">{% include social-icon.html icon="Twitter" %} Tweet</a>
